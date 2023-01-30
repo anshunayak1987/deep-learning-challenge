@@ -5,7 +5,7 @@
 
 
 
-Background
+**Background**
 
 
 
@@ -14,32 +14,32 @@ The nonprofit foundation Alphabet Soup wants a tool that can help it select the 
 From Alphabet Soup’s business team, you have received a CSV containing more than 34,000 organizations that have received funding from Alphabet Soup over the years. Within this dataset are a number of columns that capture metadata about each organization, such as:
 
 
-EIN and NAME—Identification columns
+**EIN** and **NAME**—Identification columns
 
-APPLICATION_TYPE—Alphabet Soup application type
+**APPLICATION_TYPE**—Alphabet Soup application type
 
-AFFILIATION—Affiliated sector of industry
+**AFFILIATION**—Affiliated sector of industry
 
-CLASSIFICATION—Government organization classification
+**CLASSIFICATION**—Government organization classification
 
-USE_CASE—Use case for funding
+**USE_CASE**—Use case for funding
 
-ORGANIZATION—Organization type
+**ORGANIZATION**—Organization type
 
-STATUS—Active status
+**STATUS**—Active status
 
-INCOME_AMT—Income classification
+**INCOME_AMT**—Income classification
 
-SPECIAL_CONSIDERATIONS—Special considerations for application
+**SPECIAL_CONSIDERATIONS**—Special considerations for application
 
-ASK_AMT—Funding amount requested
+**ASK_AMT**—Funding amount requested
 
-IS_SUCCESSFUL—Was the money used effectively
+**IS_SUCCESSFUL**—Was the money used effectively
 
 
-Instructions
+**Instructions**
 
-Step 1: Preprocess the Data
+__Step 1: Preprocess the Data__
 
 
 Using your knowledge of Pandas and scikit-learn’s StandardScaler(), you’ll need to preprocess the dataset. This step prepares you for Step 2, where you'll compile, train, and evaluate the neural network model.
@@ -64,7 +64,7 @@ What variable(s) are the feature(s) for your model?
 8. Scale the training and testing features datasets by creating a StandardScaler instance, fitting it to the training data, then using the transform function.
 
 
-Step 2: Compile, Train, and Evaluate the Model
+__Step 2: Compile, Train, and Evaluate the Model__
 
 
 Using your knowledge of TensorFlow, you’ll design a neural network, or deep learning model, to create a binary classification model that can predict if an Alphabet Soup-funded organization will be successful based on the features in the dataset. You’ll need to think about how many inputs there are before determining the number of neurons and layers in your model. Once you’ve completed that step, you’ll compile, train, and evaluate your binary classification model to calculate the model’s loss and accuracy.
@@ -89,54 +89,64 @@ Using your knowledge of TensorFlow, you’ll design a neural network, or deep le
 
   10. Save and export your results to an HDF5 file. Name the file AlphabetSoupCharity.h5.
 
-Step 3: Optimize the Model
+__Step 3: Optimize the Model__
 
 Using your knowledge of TensorFlow, optimize your model to achieve a target predictive accuracy higher than 75%.
 
 Use any or all of the following methods to optimize your model:
 
-.Adjust the input data to ensure that no variables or outliers are causing confusion in the model, such as:
-   a.Dropping more or fewer columns.
-   b.Creating more bins for rare occurrences in columns.
-   c.Increasing or decreasing the number of values for each bin.
+.  Adjust the input data to ensure that no variables or outliers are causing confusion in the model, such as:
+       a. Dropping more or fewer columns.
+       b. Creating more bins for rare occurrences in columns.
+       c. Increasing or decreasing the number of values for each bin.
    
-.Add more neurons to a hidden layer.
-.Add more hidden layers.
-.Use different activation functions for the hidden layers.
-.Add or reduce the number of epochs to the training regimen.   
+.  Add more neurons to a hidden layer.
+.  Add more hidden layers.
+.  Use different activation functions for the hidden layers.
+.  Add or reduce the number of epochs to the training regimen.   
 
 
-Note: If you make at least three attempts at optimizing your model, you will not lose points if your model does not achieve target performance.
+Note : If you make at least three attempts at optimizing your model, you will not lose points if your model does not achieve target performance.
 
-1.Create a new Jupyter Notebook file and name it AlphabetSoupCharity_Optimization.ipynb.
+  1. Create a new Jupyter Notebook file and name it AlphabetSoupCharity_Optimization.ipynb.
 
-2.Import your dependencies and read in the charity_data.csv to a Pandas DataFrame.
+  2. Import your dependencies and read in the charity_data.csv to a Pandas DataFrame.
 
-3.Preprocess the dataset as you did in Step 1. Be sure to adjust for any modifications that came out of optimizing the model.
+  3. Preprocess the dataset as you did in Step 1. Be sure to adjust for any modifications that came out of optimizing the model.
 
-4.Design a neural network model, and be sure to adjust for modifications that will optimize the model to achieve higher than 75% accuracy.
+  4. Design a neural network model, and be sure to adjust for modifications that will optimize the model to achieve higher than 75% accuracy.
 
-5.Save and export your results to an HDF5 file. Name the file AlphabetSoupCharity_Optimization.h5.
+  5. Save and export your results to an HDF5 file. Name the file AlphabetSoupCharity_Optimization.h5.
 
 
-Step 4: Write a Report on the Neural Network Model
+__Step 4: Write a Report on the Neural Network Model__
 
 For this part of the assignment, you’ll write a report on the performance of the deep learning model you created for Alphabet Soup.
 
 .The report should contain the following:
 
-1.Overview of the analysis: Explain the purpose of this analysis.
+  1. **Overview** of the analysis: Explain the purpose of this analysis.
 
-2.Results: Using bulleted lists and images to support your answers, address the following questions:
+  2. **Results**: Using bulleted lists and images to support your answers, address the following questions:
 
-Data Preprocessing
+.Data Preprocessing
 
   . What variable(s) are the target(s) for your model?
   . What variable(s) are the features for your model?
   . What variable(s) should be removed from the input data because they are neither targets nor features?
+
+
 .Compiling, Training, and Evaluating the Model
 
-  How many neurons, layers, and activation functions did you select for your neural network model, and why?
-Were you able to achieve the target model performance?
-What steps did you take in your attempts to increase model performance?
-Summary: Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and then explain your recommendation.
+   . How many neurons, layers, and activation functions did you select for your neural network model, and why?
+   . Were you able to achieve the target model performance?
+   . What steps did you take in your attempts to increase model performance?
+
+
+**Summary**: Summarize the overall results of the deep learning model. Include a recommendation for how a different model could solve this classification problem, and then explain your recommendation.
+
+
+**References**
+IRS. Tax Exempt Organization Search Bulk Data Downloads. https://www.irs.gov/Links to an external site.
+
+
