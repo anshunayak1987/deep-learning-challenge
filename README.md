@@ -61,4 +61,9 @@ What variable(s) are the feature(s) for your model?
 
 7. Split the preprocessed data into a features array, X, and a target array, y. Use these arrays and the train_test_split function to split the data into training and testing datasets.
 
-8.Scale the training and testing features datasets by creating a StandardScaler instance, fitting it to the training data, then using the transform function.
+8. Scale the training and testing features datasets by creating a StandardScaler instance, fitting it to the training data, then using the transform function.
+
+
+Step 2: Compile, Train, and Evaluate the Model
+
+
