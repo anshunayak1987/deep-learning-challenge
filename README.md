@@ -1,6 +1,6 @@
 # deep-learning-challenge
 
-![31041907](https://user-images.githubusercontent.com/111711194/215593465-a4d5a8ec-7e71-46be-9672-8ea6f70381ab.jpg)
+![Alphabet Soup](https://user-images.githubusercontent.com/111711194/215615678-1ad9272f-605c-4422-b280-6c5aeb1453dd.png)
 
 
 
@@ -96,6 +96,7 @@ Using your knowledge of TensorFlow, optimize your model to achieve a target pred
 Use any or all of the following methods to optimize your model:
 
 .  Adjust the input data to ensure that no variables or outliers are causing confusion in the model, such as:
+       
        a. Dropping more or fewer columns.
        b. Creating more bins for rare occurrences in columns.
        c. Increasing or decreasing the number of values for each bin.
